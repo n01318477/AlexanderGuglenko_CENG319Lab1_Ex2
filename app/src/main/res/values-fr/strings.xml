@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AlexanderGuglenko_CENG319Lab1_Ex2</string>
+
+    <string name="top_fragment"></string>
+    <string name="bottom_fragment_text"></string>
+    <string name="VRActivity">VRActivité</string>
+    <string name="AIActivity">AIActivité</string>
+    <string name="onCreate">Dans lévénement onCreate()</string>
+    <string name="onStart">Dans lévénement onStart()</string>
+    <string name="onRestart">Dans lévénement onRestart()</string>
+    <string name="onPause">Dans lévénement onPause()</string>
+    <string name="onStop">Dans lévénement onStop()</string>
+    <string name="onDestroy">Dans lévénement onDestroy()</string>
+
+    <string-array name="activityList">
+        <item>AIActivité</item>
+        <item>VRActivité</item>
+    </string-array>
+
+
+</resources>

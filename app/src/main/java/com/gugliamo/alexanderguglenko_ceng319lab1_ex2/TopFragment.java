@@ -39,6 +39,7 @@ public class TopFragment extends ListFragment {
         //using Toast class methods to display quick message
         Toast.makeText(this.getContext(), getString(R.string.onCreate),Toast.LENGTH_LONG).show();
 
+
         return view;
     }
 
