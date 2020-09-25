@@ -25,22 +25,22 @@ public class MainActivity extends AppCompatActivity {
     public void onRestart()
     {
         super.onRestart();
-        BottomFragment.display("In the onRestart() event");
+        BottomFragment.display(getString(R.string.onRestart));
     }
     public void onPause()
     {
         super.onPause();
-        BottomFragment.display("In the onPause() event");
+        BottomFragment.display(getString(R.string.onPause));
     }
     public void onStop()
     {
         super.onStop();
-        BottomFragment.display("In the onStop() event");
+        BottomFragment.display(getString(R.string.onStop));
     }
     public void onDestroy()
     {
         super.onDestroy();
-        BottomFragment.display("In the onDestroy() event");
+        BottomFragment.display(getString(R.string.onDestroy));
     }
 
 

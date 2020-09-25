@@ -17,7 +17,7 @@ public class VRActivity extends AppCompatActivity {
 
         tvCycle = (TextView) findViewById(R.id.VRActivity_text);
 
-        display("In the onCreate() event");
+        display(getString(R.string.onCreate));
     }
 
     //simple function to append bottom fragment's TextView
@@ -37,16 +37,16 @@ public class VRActivity extends AppCompatActivity {
     public void onStart()
     {
         super.onStart();
-        display("In the onStart() event");
+        display(getString(R.string.onStart));
     }
     public void onStop()
     {
         super.onStop();
-        display("In the onStop() event");
+        display(getString(R.string.onStop));
     }
     public void onDestroy()
     {
         super.onDestroy();
-        display("In the onDestroy() event");
+        display(getString(R.string.onDestroy));
     }
 }

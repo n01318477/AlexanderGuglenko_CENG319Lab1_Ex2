@@ -18,14 +18,6 @@ import androidx.fragment.app.ListFragment;
 
 public class TopFragment extends ListFragment {
 
-    /*String[] activities = new String[]
-            {
-                    "AIActivity",
-                    "VRActivity"
-            };*/
-
-
-
     public TopFragment() {
         // Required empty public constructor
     }
@@ -45,14 +37,7 @@ public class TopFragment extends ListFragment {
         setListAdapter(adapter);
 
         //using Toast class methods to display quick message
-        Toast.makeText(this.getContext(), "In the onCreateView event.",4).show();
-
-
-
-        //Log.d("MEOW",activities2[0]);
-        //Log.d("MEOW",activities2[1]);
-        //Log.d("MEOW","TEST");
-        //Log.d("MEOW",activities2[0]);
+        Toast.makeText(this.getContext(), getString(R.string.onCreate),4).show();
 
         return view;
     }
@@ -61,7 +46,7 @@ public class TopFragment extends ListFragment {
     {
         super.onStart();
 
-        Toast.makeText(this.getContext(),"In the onStart event.",3).show();
+        Toast.makeText(this.getContext(),getString(R.string.onStart),4).show();
 
     }
 
@@ -80,7 +65,5 @@ public class TopFragment extends ListFragment {
             intent = new Intent(v.getContext(), VRActivity.class);
             startActivity(intent);
         }
-
-        //fragment.display(concepts[position],"Definition : "+definition[position]);
     }
 }
